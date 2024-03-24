@@ -6,7 +6,7 @@ on:
     paths:
       - b
       - bin/*
-      - **.py
+      - '**.py'
 jobs:
   shell-lint:
     name: Check shell code
